@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Raleway:wght@100;400;500;700&display=swap');
 
 body {
-  font: 1em 'Lato', sans-serif;
+  font: 16px 'Lato', sans-serif;
 }
 
 .form__heading {
@@ -37,14 +37,10 @@ body {
   text-align: center;
 }
 
-label {
-  font-size: 16px;
-}
-
 input {
+  font: inherit;
   border: 1px solid #ccc;
   padding: 5px 8px;
-  font-size: 16px;
 }
 
 input[type="radio"] {
